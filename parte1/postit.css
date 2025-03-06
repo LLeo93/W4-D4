@@ -1,0 +1,168 @@
+body {
+  width: 95%;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Shadows Into Light';
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #666666;
+  width: 950px;
+  height: 500px;
+}
+main h4 {
+  margin: 0.2em;
+  font-size: 2.3em;
+}
+main p {
+  margin: 0.2em;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.1em;
+  width: 80px;
+}
+#p1 {
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+}
+#Task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #f8f8c6;
+  margin: 0.1em;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(-6deg);
+}
+#Task2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #b9debb;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(8deg);
+}
+#Task3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #b1b1cd;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(-10deg);
+}
+#Task4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #b9debb;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(12deg);
+}
+#Task5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #f8f8c6;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(-5deg);
+}
+#Task6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #b1b1cd;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(-9deg);
+}
+#Task7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #f8f8c6;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(-7deg);
+}
+#Task8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  background-color: #b9debb;
+  width: 200px;
+  height: 200px;
+  box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+  position: relative;
+  z-index: 1;
+  transform: rotate(4deg);
+}
+
+#Task1:hover,
+#Task2:hover,
+#Task3:hover,
+#Task4:hover,
+#Task5:hover,
+#Task6:hover,
+#Task7:hover,
+#Task8:hover {
+  transform: rotate(0deg) scale(1.2);
+  transition: all 0.2s;
+}
